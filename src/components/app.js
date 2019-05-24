@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './header';
+// import Header from './header';
 import UserCreate from './userCreate'
 import { connect } from 'react-redux';
 // import { IndiaLang, UsLang, MexicoLang, RussiaLang } from '../actions/index'
@@ -8,7 +8,6 @@ import { connect } from 'react-redux';
 const App = (props) => {
   console.log(props)
   return <div>
-       <Header />
        <UserCreate />
         </div>
 }
