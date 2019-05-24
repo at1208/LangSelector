@@ -1,5 +1,4 @@
 import React from 'react';
-// import Header from './header';
 import UserCreate from './userCreate'
 import { connect } from 'react-redux';
 // import { IndiaLang, UsLang, MexicoLang, RussiaLang } from '../actions/index'
