@@ -6,15 +6,15 @@ const Form = () => {
         <div className='col-xm-6'>
             <form>
               <div className='col-xm-1'>
-                    <label style={{ marginRight:45, color:'black',  fontFamily:'Cinzel'}} className='' For='text'>Name</label>
+                    <label style={{ marginRight:45, color:'black',  fontFamily:'Cinzel'}} className=''  >Name</label>
                     <input type="text" name=""    />
               </div>
               <div  className='col-xm-1'>
-                    <label style={{ marginRight:43, color:'black', fontFamily:'Cinzel'}} className='' For='text'>Email</label>
+                    <label style={{ marginRight:43, color:'black', fontFamily:'Cinzel'}} className='' >Email</label>
                     <input type="text" name=""    />
               </div>
               <div  className='col-xm-1'>
-                    <label style={{ marginRight:10,color:'black', fontFamily:'Cinzel'}} className=''  For='text'>Password</label>
+                    <label style={{ marginRight:10,color:'black', fontFamily:'Cinzel'}} className=''  >Password</label>
                     <input type="password" name=""   onChange={(e) => {console.log(e.target.value)}} />
               </div>
               </form>
