@@ -1,20 +1,6 @@
-export const IndiaLang = () => {
+export const SelectedLang = (language) => {
   return({
-    type: 'INDIA'
-  })
-}
-export const UsLang = () => {
-  return({
-    type: 'US'
-  })
-}
-export const MexicoLang = () => {
-  return({
-    type: 'MEXICO'
-  })
-}
-export const RussiaLang = () => {
-  return({
-    type: 'RUSSIA'
+    type: 'LANG_SELECTED',
+    payload: language
   })
 }
