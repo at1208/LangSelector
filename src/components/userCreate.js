@@ -34,14 +34,17 @@ const UserCreate = (props) =>{
                <form>
                  <div className='col-xm-1'>
                        <label style={{ marginRight:45, color:'black',  fontFamily:'Cinzel'}} className=''  >{props.lang.SelectedLang.Name || 'Name'}</label>
+                       <br />
                        <input type="text" name=""    />
                  </div>
                  <div  className='col-xm-1'>
                        <label style={{ marginRight:43, color:'black', fontFamily:'Cinzel'}} className='' >{props.lang.SelectedLang.Email || 'Email'}</label>
+                        <br />
                        <input type="text" name=""    />
                  </div>
                  <div  className='col-xm-1'>
                        <label style={{ marginRight:10,color:'black', fontFamily:'Cinzel'}} className=''  >{props.lang.SelectedLang.Password || 'Password'}</label>
+                        <br />
                        <input type="password" name=""   onChange={(e) => {console.log(e.target.value)}} />
                  </div>
                  </form>
